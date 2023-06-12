@@ -1,0 +1,98 @@
+.todo-list {
+    background-color: white;
+    margin-top: 60px;
+    bottom: auto;
+    border: 1px solid rgb(194, 194, 194);
+    height: 500px;
+    border-radius: 30px;
+    padding: 50px 20px;
+    width: 400px;
+    box-shadow: rgba(99, 99, 99, 0.35) 0px 2px 8px 0px;
+}
+
+
+.AddTodoText {
+    margin-right: 4px;
+}
+
+.AddTodoText,
+.dateInp {
+    width: 100%;
+    padding: 10px;
+}
+
+.dateInp {
+    margin-left: 2px;
+    color: gray;
+}
+
+.Todoinp {
+    margin-bottom: 5px;
+    border: none;
+    outline: none;
+    height: 35px;
+    border-bottom: 1px solid rgb(161, 161, 161);
+
+    transition: border-bottom 0.2s ease;
+}
+
+.Todoinp:focus {
+    box-shadow: rgba(100, 100, 111, 0.35) 0px 7px 29px 0px;
+    border-bottom: 1px solid rgb(100, 100, 100);
+
+}
+
+.descInp {
+    padding: 5px 10px;
+    resize: none;
+    display: block;
+}
+
+.DateIcon {
+    border-bottom: 1px solid rgb(161, 161, 161);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.DateIcon:hover {
+    box-shadow: rgba(100, 100, 111, 0.35) 0px 7px 29px 0px;
+    border-bottom: 1px solid rgb(100, 100, 100);
+
+}
+
+
+.AddIcon {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 20px;
+    width: 50px;
+    color: white;
+    background-color: rgb(0, 170, 0);
+}
+
+
+.AddIcon:hover {
+    background-color: rgb(0, 155, 0);
+}
+
+.cards {
+    height: 280px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 10px;
+}
